@@ -10,8 +10,27 @@
     tools:context="com.example.administrator.testgit.MainActivity">
 
     <ImageView
+
         android:id="@+id/iv"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:background="#fff000"/>
+
+    <com.example.administrator.testgit.testLayout
+        android:visibility="gone"
+        android:id="@+id/test_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#fff000"/>
+    </com.example.administrator.testgit.testLayout>
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="dadad"
+        android:layout_alignParentRight="true"/>
 </RelativeLayout>
