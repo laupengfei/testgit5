@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         iv = (ImageView) findViewById(R.id.iv);
 
+        //这是test1
         //我是刘鹏飞
         final TranslateAnimation anim = new TranslateAnimation(0, 300, 0, 300);
 //        animationSet = new AnimationSet(this,R.anim.animation1);
